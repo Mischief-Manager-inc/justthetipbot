@@ -15,6 +15,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContactModal, onGoToAdmin 
             <a href="https://discord.gg/66gNdYCYZA" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300 transition-colors duration-200">
               <span role="img" aria-label="discord">💬</span> Discord
             </a>
+            <a href="https://mischief-manager-inc.github.io/justthetipbot" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300 transition-colors duration-200">
+              <span role="img" aria-label="documentation">📚</span> Documentation
+            </a>
+            <a href="https://github.com/Mischief-Manager-inc/justthetipbot" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-cyan-300 transition-colors duration-200">
+              <span role="img" aria-label="github">⭐</span> GitHub
+            </a>
             <button onClick={onOpenContactModal} className="flex items-center gap-2 hover:text-cyan-300 transition-colors duration-200">
               <span role="img" aria-label="envelope">✉️</span> Contact Us
             </button>

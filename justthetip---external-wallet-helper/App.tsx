@@ -208,10 +208,20 @@ const App: React.FC = () => {
           <p className="max-w-2xl mx-auto text-lg text-gray-400 mb-10 relative z-10">
             Justthetip is a non-custodial helper bot for your external wallets. Tip and airdrop crypto directly in Discord, securely.
           </p>
-          <div className="flex justify-center items-center gap-4 relative z-10">
+          <div className="flex justify-center items-center gap-4 relative z-10 flex-wrap">
             <SecondaryButton onClick={handleSecondaryClick}>
               ADD BOT TO SERVER
             </SecondaryButton>
+            <a 
+              href="https://mischief-manager-inc.github.io/justthetipbot" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group relative px-8 py-3 font-bold text-gray-300 rounded-lg border border-white/20 transition-all duration-300 hover:text-white hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/30 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-brand-dark"
+            >
+              <span className="flex items-center gap-2">
+                <span role="img" aria-label="documentation">📚</span> Learn More
+              </span>
+            </a>
           </div>
         </section>
 
@@ -303,10 +313,18 @@ const App: React.FC = () => {
           <p className="max-w-xl mx-auto text-gray-400 mb-8 relative z-10">
             Add the Justthetip bot and unlock a new dimension of web3 community engagement.
           </p>
-          <div className="relative z-10">
+          <div className="relative z-10 flex justify-center items-center gap-4 flex-wrap">
             <SecondaryButton onClick={handleSecondaryClick}>
                <span role="img" aria-label="rocket" className="mr-2">🚀</span> ADD BOT TO SERVER
             </SecondaryButton>
+            <a 
+              href="https://mischief-manager-inc.github.io/justthetipbot" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 font-medium text-gray-300 border border-white/20 rounded-lg transition-all duration-300 hover:text-white hover:border-cyan-400 hover:shadow-lg hover:shadow-cyan-400/30"
+            >
+              <span role="img" aria-label="documentation">📚</span> Documentation
+            </a>
           </div>
         </section>
       </main>
