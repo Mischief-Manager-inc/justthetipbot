@@ -1,0 +1,27 @@
+# Jekyll configuration for JustTheTip Bot Documentation
+title: JustTheTip Bot
+description: A Discord crypto tipping bot supporting Solana and multiple cryptocurrencies
+baseurl: /justthetipbot
+url: https://mischief-manager-inc.github.io
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# GitHub Pages settings
+source: .
+destination: _site
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - package.json
+  - package-lock.json
+  - vite.config.ts
+  - tsconfig.json
