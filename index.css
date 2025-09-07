@@ -1,0 +1,62 @@
+/* Base styles for Justthetip landing page */
+/* Most styling is handled by Tailwind CSS, this file provides additional custom styles */
+
+/* Ensure smooth scrolling and proper font rendering */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom animations that complement Tailwind */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Ensure proper background coverage */
+body {
+  min-height: 100vh;
+  background-color: #0A092B;
+}
+
+/* Custom focus styles for accessibility */
+button:focus,
+a:focus {
+  outline: 2px solid #22d3ee;
+  outline-offset: 2px;
+}
+
+/* Ensure images load properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101032;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22d3ee;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}
+
+/* Loading states */
+.loading {
+  opacity: 0.7;
+  pointer-events: none;
+}
