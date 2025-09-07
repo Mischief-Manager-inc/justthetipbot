@@ -2,6 +2,15 @@
 
 A Discord tip bot supporting Solana (SOL) only. Allows users to tip, withdraw, airdrop, and donate SOL via Discord commands.
 
+## Landing Page
+
+The project includes a styled React landing page deployed to GitHub Pages at: https://mischief-manager-inc.github.io/justthetipbot
+
+### Landing Page Development
+- **Development server**: `npm run dev`
+- **Build**: `npm run build`
+- **Deploy**: Automatic deployment via GitHub Actions on push to main branch
+
 ## Features
 - Tip users in SOL
 - Airdrop crypto for others to collect

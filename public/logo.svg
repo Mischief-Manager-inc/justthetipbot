@@ -1,0 +1,32 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <!-- Iceberg shape -->
+  <defs>
+    <linearGradient id="icebergGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#b3e5fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81d4fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tipGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e0f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="160" cy="160" r="150" fill="rgba(10, 9, 43, 0.8)" stroke="rgba(34, 211, 238, 0.3)" stroke-width="2"/>
+  
+  <!-- Iceberg visible part (tip) -->
+  <polygon points="160,80 120,140 200,140" fill="url(#tipGradient)" stroke="rgba(34, 211, 238, 0.5)" stroke-width="1"/>
+  
+  <!-- Iceberg underwater part -->
+  <polygon points="160,140 100,180 80,220 100,240 140,250 160,240 180,250 220,240 240,220 220,180 200,180" fill="url(#icebergGradient)" opacity="0.7" stroke="rgba(34, 211, 238, 0.3)" stroke-width="1"/>
+  
+  <!-- Shine/highlight on tip -->
+  <polygon points="160,80 140,110 160,120 180,110" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- Crypto symbols scattered around -->
+  <text x="60" y="100" font-family="Arial, sans-serif" font-size="16" fill="#22d3ee" opacity="0.6">₿</text>
+  <text x="250" y="120" font-family="Arial, sans-serif" font-size="14" fill="#a855f7" opacity="0.6">◎</text>
+  <text x="70" y="250" font-family="Arial, sans-serif" font-size="12" fill="#22d3ee" opacity="0.6">Ł</text>
+  <text x="240" y="260" font-family="Arial, sans-serif" font-size="12" fill="#a855f7" opacity="0.6">$</text>
+</svg>

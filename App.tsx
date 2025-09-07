@@ -191,7 +191,7 @@ const App: React.FC = () => {
           </h1>
           <div className="w-64 h-48 md:w-80 md:h-60 overflow-hidden mx-auto mb-6 relative z-10">
             <img 
-              src="/logo.png" 
+              src="/logo.svg" 
               alt="An iceberg logo" 
               className="w-64 h-64 md:w-80 md:h-80 object-contain -translate-y-1/4"
             />

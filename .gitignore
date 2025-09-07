@@ -4,3 +4,17 @@ node_modules/
 *.log
 data/
 .DS_Store
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
